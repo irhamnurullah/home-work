@@ -1,0 +1,169 @@
+* {
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin-left: 20px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+  background-color: black;
+}
+
+.wrapper {
+  width: 1000px;
+  margin: auto;
+  position: relative;
+}
+
+#home img {
+  border-radius: 20px;
+  margin-top: 10px;
+  margin-right: 20px;
+  width: 40%;
+}
+
+.logo a {
+  font-size: 40px;
+  font-weight: bold;
+  float: left;
+  font-family: sans-serif;
+  color: #e2d9ca;
+}
+
+.menu {
+  float: right;
+}
+
+nav {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  line-height: 70px;
+  position: sticky;
+  top: 0;
+  background: black;
+  z-index: 1;
+  border-bottom: 1px solid black;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: #e2d9ca;
+  font-weight: bold;
+  text-align: center;
+  padding: 0px 16px 0px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+section {
+  margin: auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.kolom {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.kolom .deskripsi {
+  font-size: 20px;
+  font-weight: bold;
+  color: #e2d9ca;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #e2d9ca;
+  line-height: 50px;
+}
+
+h3 {
+  margin-bottom: 5px;
+  color: white;
+  line-height: 30px;
+}
+
+.tengah {
+  text-align: center;
+  width: 100%;
+}
+
+.disc-list {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nama-album {
+  width: 30%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.nama-album img {
+  width: 80%;
+  border-radius: 20px;
+}
+
+.nama-album p {
+  font-family: "Segoe UI";
+  font-weight: 500;
+  font-size: 20 px;
+  color: #e2d9ca;
+}
+
+@media screen and (max-width: 991.98px) {
+  .wrapper {
+    width: 90%;
+  }
+
+  .logo a {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  nav .menu {
+    width: 100%;
+    margin: 0;
+  }
+
+  nav .menu ul {
+    text-align: center;
+    margin: auto;
+    line-height: 60px;
+  }
+
+  nav .menu ul li {
+    display: inline;
+    float: none;
+  }
+
+  section {
+    display: block;
+  }
+
+  section img {
+    display: block;
+  }
+}
